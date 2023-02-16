@@ -159,8 +159,34 @@ nav {
 }
 
 
+/* ----------------------------------------------- */
+.Sponspors-section {
+    margin: 100px 0;
+}
+
+.Sponspors-dis {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Sponspors-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
 
 
 
 
-/* ------------------- */
+
+/* --------------------------- */
+footer {
+    background-color: #f5e1cb;
+    margin: 0px 240px 30px;
+    padding: 3wv;
+    display: flex;
+    justify-content: center;
+}
