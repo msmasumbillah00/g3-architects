@@ -6,8 +6,15 @@ body {
 
 }
 
-header {
+header,
+main {
     padding: 0px 240px 30px;
+}
+
+p {
+    line-height: 25px;
+    font-weight: 100;
+    color: rgb(125, 125, 127);
 }
 
 header {
@@ -17,7 +24,7 @@ header {
 .section-title {
     font-style: normal;
     font-weight: 700;
-    font-size: 45px;
+    font-size: 2vw;
     line-height: 53px;
 }
 
@@ -50,7 +57,7 @@ nav {
 }
 
 .baner-title {
-    font-size: 65px;
+    font-size: 4vw;
 }
 
 .baner-discription p {
@@ -68,4 +75,32 @@ nav {
 .baner-img img {
     width: 100%;
     margin-top: 40px;
+}
+
+/* ---------------------------------------------------------------- */
+.features-section {
+    display: flex;
+    margin: 60px;
+    align-items: center;
+}
+
+.features-img {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+}
+
+.features-dis {
+    margin-left: 90px;
+}
+
+.text-light {
+    font-weight: 500;
+    color: rgb(125, 125, 127);
+
+}
+
+.text-feature {
+    color: #ff900d;
+    font-weight: bolder;
 }
