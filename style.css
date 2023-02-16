@@ -104,3 +104,32 @@ nav {
     color: #ff900d;
     font-weight: bolder;
 }
+
+/* --------------------------------------------------------- */
+
+.experiens-text {
+    font-size: 3vw;
+    font-weight: bolder;
+}
+
+.second-features {
+    display: flex;
+}
+
+.second-features>div {
+    padding: 50px;
+}
+
+.feature {
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.experiens-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: -200px;
+}
