@@ -190,3 +190,109 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+
+/* responsive for mobile */
+
+
+@media only screen and (max-width: 668px) {
+
+    header,
+    main {
+        padding: 10px;
+    }
+
+    .nav-link li {
+        margin-left: 20px;
+    }
+
+    .baner-discription {
+        max-width: 90%;
+    }
+
+    .section-title {
+        font-size: 4vw;
+    }
+
+    .baner-title {
+        font-size: 6vw;
+    }
+
+    .features-section,
+    .second-features {
+        flex-direction: column;
+        margin: 30px 0;
+
+    }
+
+    .features-section {
+        flex-direction: column-reverse;
+    }
+
+    .features-img {
+        grid-template-columns: auto;
+        grid-gap: 10px;
+        margin: 50px 0;
+
+    }
+
+
+
+
+
+    .features-dis {
+        margin-left: 10px;
+    }
+
+    .second-features>div {
+        padding: 10px;
+    }
+
+    .second-features>div img {
+        width: 100%;
+    }
+
+    .experiens-btn {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin-top: 0;
+
+    }
+
+    .facts-section {
+        margin: 50px 0;
+    }
+
+    .facts-dis {
+        max-width: 80%;
+        margin-bottom: 50px;
+    }
+
+    .facts {
+        padding: 10px;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .fact {
+        margin-bottom: 50px;
+    }
+
+    .Sponspors-dis {
+        width: 80%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .Sponspors-img {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        grid-gap: 30px;
+    }
+
+    footer {
+        margin: 10px;
+    }
+}
